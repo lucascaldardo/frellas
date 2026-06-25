@@ -3,9 +3,9 @@ version: '3.8'
 services:
   postgres:
     image: postgres:latest
-    container_name: frellas
+    container_name: evento
     environment:
-      POSTGRES_DB: frellas
+      POSTGRES_DB: evento
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
